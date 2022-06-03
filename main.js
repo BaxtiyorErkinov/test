@@ -1,14 +1,9 @@
-const obj = {
-  name: "Baxa",
-  id: 1,
-  age: 18
+function pipeFix(n) {
+  const res = [];
+  for(let i = n[0]; i <= n[n.length - 1]; i++) {
+    res.push(i)
+  }
+  return res
 }
-
-
-function a() {
-  console.log(this)
-}
-
-obj.fn = a
-
-obj.fn()
+const res = pipeFix([1, 2, 3, 4, 7, 10]);
+console.log(res);
