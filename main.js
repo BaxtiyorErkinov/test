@@ -1,14 +1,3 @@
-const obj = {
-  name: "Baxa",
-  id: 1,
-  age: 18
+function news() {
+  return "new"
 }
-
-
-function a() {
-  console.log(this)
-}
-
-obj.fn = a
-
-obj.fn()
