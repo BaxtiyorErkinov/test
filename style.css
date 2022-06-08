@@ -11,5 +11,9 @@
 .box {
   width: 100px;
   height: 100px;
+<<<<<<< HEAD
   background: #red;
+=======
+  background: #000;
+>>>>>>> a3dfdfc6e71422060f897ae852a677d01917f8c9
 }
