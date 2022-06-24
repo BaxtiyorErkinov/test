@@ -1,3 +1,4 @@
+
 class Component {
 	constructor(el) {
 		this.el = document.getElementById(el)
@@ -20,3 +21,4 @@ const box = new Box({
 	height: 100,
 	color: "red"
 })
+
