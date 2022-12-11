@@ -16,6 +16,7 @@ function drawSet() {
 		ctx.moveTo(i, 0)
 		ctx.lineTo(i, cHeight)
 		ctx.stroke()
+	}
 
 	for(let i = 50; i < cWidth; i += xWidth) {
 		ctx.moveTo(0, i)
@@ -40,8 +41,8 @@ drawSet()
 	let counter1 = 0;
 	let counter2 = 0;
 function draw() {
-			ctx.clearRect(0,0, cWidth, cHeight)
-			drawSet()
+		ctx.clearRect(0,0, cWidth, cHeight)
+		drawSet()
 		if(counter2 <= 50000) {
 			counter1 += 5
 			counter2 += 3
@@ -55,8 +56,8 @@ function draw() {
 }
 
 
-	let counter3 = 0;
-	let counter4 = 0;
+let counter3 = 0;
+let counter4 = 0;
 
 function draw2() {
 		if(counter4 <= 50000) {
@@ -80,9 +81,3 @@ function draw2() {
 // }
 draw()
 draw2()
-
-
-
-
-
-
