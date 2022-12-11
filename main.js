@@ -16,7 +16,6 @@ function drawSet() {
 		ctx.moveTo(i, 0)
 		ctx.lineTo(i, cHeight)
 		ctx.stroke()
-	}
 
 	for(let i = 50; i < cWidth; i += xWidth) {
 		ctx.moveTo(0, i)
@@ -81,7 +80,6 @@ function draw2() {
 // }
 draw()
 draw2()
-
 
 
 
